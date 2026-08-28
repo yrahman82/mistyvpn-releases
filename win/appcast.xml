@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- WinSparkle appcast for MistyVPN (Windows). SAME format as the macOS Sparkle feed — WinSparkle
+     reads this identical appcast, downloads the installer, and installs it. Release <item>s are
+     appended by the release pipeline.
+     Feed URL (win_sparkle_set_appcast_url): https://updates.mistyvpn.com/win/appcast.xml
+     Each item's <enclosure url> points at a GitHub Release asset (the signed .exe/.msi installer).
+     Updates are EdDSA-signed (sparkle:edSignature); WinSparkle verifies with the baked-in public key. -->
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>MistyVPN for Windows</title>
+    <link>https://updates.mistyvpn.com/win/appcast.xml</link>
+    <description>Most recent updates to MistyVPN for Windows.</description>
+    <language>en</language>
+    <!--
+    Example item shape (the pipeline fills version, edSignature, length, url):
+
+    <item>
+      <title>1.0.1</title>
+      <sparkle:version>1.0.1</sparkle:version>            // WinSparkle compares this
+      <sparkle:os>windows</sparkle:os>
+      <description><![CDATA[<ul><li>What's new…</li></ul>]]></description>
+      <pubDate>Mon, 01 Sep 2026 10:00:00 +0000</pubDate>
+      <enclosure
+        url="https://github.com/yrahman82/mistyvpn-releases/releases/download/win-v1.0.1/MistyVPN-Setup-1.0.1.exe"
+        sparkle:edSignature="…" length="123456789" type="application/octet-stream"
+        sparkle:installerArguments="/SILENT /NORESTART" />   <!-- silent auto-install, no user clicks -->
+    </item>
+    -->
+  </channel>
+</rss>
