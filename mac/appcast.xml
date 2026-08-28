@@ -12,6 +12,14 @@
     <description>Most recent updates to MistyVPN for macOS.</description>
     <language>en</language>
     <item>
+      <title>1.0.5</title>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <pubDate>Fri, 28 Aug 2026 18:28:06 +0000</pubDate>
+      <enclosure url="https://github.com/yrahman82/mistyvpn-releases/releases/download/mac-v1.0.5/MistyVPN.zip" sparkle:edSignature="mSTa5g+0jayHzswpsJKB7wFQ+BoLAM90XesHY1sF/wzsUE8CldP8gm/0MjAkaXPBrejBDBHkjh065eEE8uUhCg==" length="103472092" type="application/octet-stream" />
+    </item>
+    <item>
       <title>1.0.4</title>
       <sparkle:version>5</sparkle:version>
       <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
