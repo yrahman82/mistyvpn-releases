@@ -21,18 +21,6 @@
     </item>
     <!--
     Example item shape (the pipeline fills sparkle:version, edSignature, length, url):
-
-    <item>
-      <title>1.0.1</title>
-      <sparkle:version>2</sparkle:version>               // CFBundleVersion (build number)
-      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>What's new…</li></ul>]]></description>
-      <pubDate>Mon, 01 Sep 2026 10:00:00 +0000</pubDate>
-      <enclosure
-        url="https://github.com/yrahman82/mistyvpn-releases/releases/download/mac-v1.0.1/MistyVPN-1.0.1.zip"
-        sparkle:edSignature="…" length="123456789" type="application/octet-stream" />
-    </item>
     -->
   </channel>
 </rss>
