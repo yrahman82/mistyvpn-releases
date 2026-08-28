@@ -1,2 +1,2 @@
-scripts/RELEASING.md
-*.local.md
+# never publish internal docs to this PUBLIC repo
+*.md
