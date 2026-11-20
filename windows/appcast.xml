@@ -12,6 +12,13 @@
     <description>Most recent updates to MistyVPN for Windows.</description>
     <language>en</language>
     <item>
+      <title>1.0.32</title>
+      <sparkle:version>1.0.32</sparkle:version>
+      <sparkle:shortVersionString>1.0.32</sparkle:shortVersionString>
+      <pubDate>Fri, 20 Nov 2026 19:34:39 GMT</pubDate>
+      <enclosure url="https://github.com/yrahman82/mistyvpn-releases/releases/download/win-v1.0.32/MistyVPN-Setup.exe" sparkle:edSignature="eqYkUAUv1kZzgStsBX5FqTHH2PapU9MVfycdg9YlC3ElAnFbnEBYXgfFIV47iBGWiTWFAWvebbkJPI317IBGDg==" length="161662592" sparkle:installerArguments="/VERYSILENT /SP- /SUPPRESSMSGBOXES /NORESTART" type="application/octet-stream" />
+    </item>
+    <item>
       <title>1.0.31</title>
       <sparkle:version>1.0.31</sparkle:version>
       <sparkle:shortVersionString>1.0.31</sparkle:shortVersionString>
